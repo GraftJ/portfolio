@@ -80,13 +80,12 @@
                 {{ with .Site.Params.Footer }}
                     <div class="row-colors right-align">
                         <ul class="main-page-footer horizontal no-bullets no-margin">
-                            {{ range .List }}
+                            {{ range .list }}
                                 <li>
                                     <a href="{{ .icon_link }}">
                                         <i class="fa fa-{{ .icon_class }}"></i>
                                     </a>
                                 </li>
-                                <li>|</li>
                             {{ end }}
                             <li>{{ $.Site.Copyright | markdownify }}</li>
                         </ul>
