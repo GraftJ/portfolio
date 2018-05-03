@@ -139,7 +139,7 @@ SectionPagesMenu = "Main"
             link = "/post/"
 
             # The image to use as a background-image for the cell
-            image = "/img/car.jpg"
+            image = "/img/posts.png"
 
             # This uses the CSS background-position, given the image above is
             # set, useful when you want to adjust where the background-image
@@ -175,23 +175,4 @@ SectionPagesMenu = "Main"
 
             name = "Projects"
             link = "/project/"
-            image = "/img/drone.jpg"
-
-        #[[Params.Cells.List]]
-
-            #name = "Custom Post Section Name"
-            #link = "/custompost/"
-            #image = "/img/food.jpg"
-
-        #[[Params.Cells.List]]
-
-            #name = "Custom Gallery Section Name"
-            #link = "/customgallery/"
-            #image = "/img/jars.jpg"
-
-        #[[Params.Cells.List]]
-
-            #name = "Custom Project Section Name"
-            #link = "/customproject/"
-            #image = "/img/phone.jpg"
-
+            image = "/img/projects.png"
